@@ -1,2 +1,2 @@
 # DSA_CAPSTONE_PROJECT
-My DSA ca[stone data analysis project.
+My DSA capstone data analysis project.
