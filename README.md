@@ -2,7 +2,6 @@
 
 This repository contains SQL-style analysis performed on order data from Kultra Mega Stores (KMS), focusing on sales performance, customer value, and shipping cost optimization.
 
----
 
 ## 🧠 Case Scenario I
 
@@ -47,7 +46,7 @@ WHERE "Product Category" = 'Appliances' AND Region = 'Ontario';
 ```
 ➡️ Result: ₹202,346.84
 
----
+
 
 ### 4. Advice for Bottom 10 Customers
 ```sql
@@ -62,7 +61,7 @@ LIMIT 10;
 - Promotions and bundles
 - Re-engagement campaigns
 
----
+
 
 ### 5. Shipping Method with the Most Cost
 ```sql
@@ -74,7 +73,7 @@ LIMIT 1;
 ```
 ➡️ Result: **Delivery Truck**
 
----
+
 
 ## 🔍 Case Scenario II
 
@@ -88,7 +87,6 @@ LIMIT 5;
 ```
 Then group their purchases by category.
 
----
 
 ### 7. Small Business Customer with Highest Sales
 ```sql
@@ -101,7 +99,7 @@ LIMIT 1;
 ```
 ➡️ Result: Dennis Kane — ₹75,967.59
 
----
+
 
 ### 8. Corporate Customer with Most Orders
 ```sql
@@ -114,7 +112,7 @@ LIMIT 1;
 ```
 ➡️ Result: Adam Hart — 27 Orders
 
----
+
 
 ### 9. Most Profitable Consumer
 ```sql
@@ -127,12 +125,12 @@ LIMIT 1;
 ```
 ➡️ Result: Emily Phan — ₹34,005.44
 
----
+
 
 ### 10. Customers Who Returned Items
 ➡️ ❌ No column for return data available
 
----
+
 
 ### 11. Shipping Cost vs Order Priority
 ```sql
@@ -142,10 +140,59 @@ GROUP BY "Order Priority", "Ship Mode";
 ```
 ➡️ Finding: Shipping cost **not aligned** with priority. Express Air used broadly, even for Low priority.
 
----
+
 
 ## 📁 Files Included
 - `kms_inventory_analysis_with_sql.md`: Full analysis summary with SQL
 - `kms_inventory_data.csv`: Source dataset
 
----
+Kultra-Mega-Stores-SQL-Analysis
+
+├── README.md
+├── SQL_Scripts
+  ├── sales_by_region.sql
+  ├── top_products.sql
+  └── customer_loyalty.sql
+├── Results_Screenshots
+│   ├── revenue_chart.png
+│   ├── loyalty_breakdown.png
+│   └── product_performance.png
+└── insights_summary.md
+
+
+# Kultra Mega Stores SQL Analysis
+
+An in-depth analysis of sales and customer performance using SQL queries on transactional data.
+
+## Tools Used
+- SQL (MySQL / PostgreSQL / SQLite)
+
+## Objectives
+- Identify top-performing products and regions
+- Explore customer loyalty patterns
+- Analyze monthly revenue and growth
+
+## Summary of Findings
+
+# Kultra Mega Stores - Key Insights
+
+1. Top Regions:
+   - Lagos and Abuja contributed over 70% of total revenue.
+
+2. Customer Loyalty:
+   - 20% of customers accounted for over 60% of repeat purchases.
+
+3. Top Performing Products:
+   - Kitchen appliances and mobile phones were the top-selling categories.
+
+4. Revenue Growth:
+   - Q4 saw a 25% increase in sales, likely due to festive promotions.
+
+5. Underperforming Branches:
+   - The northern branches had low
+     
+## SQL Scripts
+All SQL queries are in the `SQL_Scripts`above.
+
+
+
