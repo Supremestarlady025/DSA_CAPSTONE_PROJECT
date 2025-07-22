@@ -2,8 +2,26 @@
 
 This repository contains SQL-style analysis performed on order data from Kultra Mega Stores (KMS), focusing on sales performance, customer value, and shipping cost optimization.
 
+├── README.md
+├── SQL_Scripts
+  ├── sales_by_region.sql
+  ├── top_products.sql
+  └── customer_loyalty.sql
+├── Results_Screenshots
+│   ├── revenue_chart.png
+│   ├── loyalty_breakdown.png
+│   └── product_performance.png
+└── insights_summary.md
 
-## 🧠 Case Scenario I
+## Tools Used
+- SQL (MySQL workbench)
+
+## Objectives
+- Identify top-performing products and regions
+- Explore customer loyalty patterns
+- Analyze monthly revenue and growth
+
+## Case Scenario I
 
 ### 1. Product Category with the Highest Sales
 ```sql
@@ -145,54 +163,5 @@ GROUP BY "Order Priority", "Ship Mode";
 ## 📁 Files Included
 - `kms_inventory_analysis_with_sql.md`: Full analysis summary with SQL
 - `kms_inventory_data.csv`: Source dataset
-
-Kultra-Mega-Stores-SQL-Analysis
-
-├── README.md
-├── SQL_Scripts
-  ├── sales_by_region.sql
-  ├── top_products.sql
-  └── customer_loyalty.sql
-├── Results_Screenshots
-│   ├── revenue_chart.png
-│   ├── loyalty_breakdown.png
-│   └── product_performance.png
-└── insights_summary.md
-
-
-# Kultra Mega Stores SQL Analysis
-
-An in-depth analysis of sales and customer performance using SQL queries on transactional data.
-
-## Tools Used
-- SQL (MySQL / PostgreSQL / SQLite)
-
-## Objectives
-- Identify top-performing products and regions
-- Explore customer loyalty patterns
-- Analyze monthly revenue and growth
-
-## Summary of Findings
-
-# Kultra Mega Stores - Key Insights
-
-1. Top Regions:
-   - Lagos and Abuja contributed over 70% of total revenue.
-
-2. Customer Loyalty:
-   - 20% of customers accounted for over 60% of repeat purchases.
-
-3. Top Performing Products:
-   - Kitchen appliances and mobile phones were the top-selling categories.
-
-4. Revenue Growth:
-   - Q4 saw a 25% increase in sales, likely due to festive promotions.
-
-5. Underperforming Branches:
-   - The northern branches had low
-     
-## SQL Scripts
-All SQL queries are in the `SQL_Scripts`above.
-
 
 
