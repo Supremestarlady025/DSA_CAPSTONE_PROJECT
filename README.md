@@ -7,7 +7,6 @@ This repository contains SQL-style analysis performed on order data from Kultra 
   ├── sales_by_region.sql
   ├── top_products.sql
   └── customer_loyalty.sql
-├── Results_Screenshots
 │   ├── revenue_chart.png
 │   ├── loyalty_breakdown.png
 │   └── product_performance.png
